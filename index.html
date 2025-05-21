@@ -2,25 +2,23 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kantung Katarsis</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Kantung Katarsis</h1>
 
+    <!-- Form untuk kirim curhatan -->
     <form id="curhatForm">
-        <textarea id="pesan" placeholder="Tulis curhatanmu di sini..." required></textarea>
+        <textarea id="pesan" placeholder="Tulis curhatanmu di sini..."></textarea>
         <br>
         <button type="submit">Kirim</button>
     </form>
 
+    <!-- Tempat pesan-pesan akan mengambang -->
     <div id="pesanContainer"></div>
 
-    <noscript>
-        <p>Aktifkan JavaScript untuk menggunakan Kantung Katarsis.</p>
-    </noscript>
-
+    <!-- Script untuk logic kirim dan tampil pesan -->
     <script src="script.js"></script>
 </body>
 </html>
