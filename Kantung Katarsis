@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantung Katarsis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kantung Katarsis</h1>
+
+    <form id="curhatForm">
+        <textarea id="pesan" placeholder="Tulis curhatanmu di sini..." required></textarea>
+        <br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <div id="pesanContainer"></div>
+
+    <noscript>
+        <p>Aktifkan JavaScript untuk menggunakan Kantung Katarsis.</p>
+    </noscript>
+
+    <script src="script.js"></script>
+</body>
+</html>
